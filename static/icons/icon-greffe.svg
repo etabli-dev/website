@@ -1,11 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-label="greffe">
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-label="Greffe">
+  <!-- Établi Greffe icon. Coder design system: #28A745 tile, white glyph, one-line glyph ≈70% of the tile, stroke 44 @1024 (aligned to the suite icon, Nov 2026). -->
   <rect width="1024" height="1024" fill="#28A745"/>
-  <g fill="none" stroke="#FFFFFF" stroke-width="36" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M 330 250 H 610 L 700 340 V 774 H 330 Z"/>
-    <path d="M 610 250 V 340 H 700"/>
-    <line x1="400" y1="440" x2="630" y2="440"/>
-    <line x1="400" y1="530" x2="630" y2="530"/>
-    <line x1="400" y1="620" x2="540" y2="620"/>
-    <circle cx="610" cy="660" r="58"/>
+  <g transform="translate(512,512) scale(1.33861) translate(-524.00,-512.00)">
+  <g stroke-width="32.870" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 560 764 H 336 A 36 36 0 0 1 300 728 V 296 A 36 36 0 0 1 336 260 H 688 A 36 36 0 0 1 724 296 V 520" fill="none" stroke="#FFFFFF"/>
+    <line x1="380" y1="400" x2="640" y2="400" fill="none" stroke="#FFFFFF"/>
+    <line x1="380" y1="500" x2="560" y2="500" fill="none" stroke="#FFFFFF"/>
+    <circle cx="656" cy="656" r="92" fill="none" stroke="#FFFFFF"/>
+  </g>
   </g>
 </svg>

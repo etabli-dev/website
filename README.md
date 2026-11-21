@@ -29,7 +29,9 @@ site-data/bientot.yaml     tools still in private repositories (name and summary
 site-data/principes.yaml   short principles on the home page
 layouts/              templates (home, section, page, outils/page, 404)
 assets/css/main.css   the only stylesheet; light and dark follow the system
-static/icons/         the suite's app tiles
+static/icons/         app tiles: the one-line family from etabli-dev/.github
+                      (profile/icons, generator in icons/); Greffe, Indice,
+                      Charpente and Secours drawn with the same generator
 static/images/        mark, favicons and the social preview image
 tools/check_links.py  internal link and anchor check for the built site
 ```
