@@ -1,0 +1,11 @@
+{{ $tools := (site.GetPage "/outils").Pages.ByWeight }}
+{{ range hugo.Data.familles }}
+{{ $key := .key }}
+<section class="family" id="{{ .key }}">
+  <h2 class="family-title"><span class="kicker">{{ .kicker }}</span>{{ .title }}</h2>
+  <p class="family-text">{{ .text }}</p>
+  <ul class="tools">
+    {{ range where $tools "Params.family" $key }}{{ partial "tool-card.html" . }}{{ end }}
+  </ul>
+</section>
+{{ end }}

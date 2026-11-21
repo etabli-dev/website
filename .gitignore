@@ -1,0 +1,16 @@
+/public/
+/resources/
+.hugo_build.lock
+.DS_Store
+# raw data and local config
+data-raw/
+*.env
+.env
+# agent / orchestration files
+CLAUDE.md
+AGENTS.md
+.claude/
+.codex/
+.cursor/
+.mcp.json
+prompts/

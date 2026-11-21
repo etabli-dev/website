@@ -1,0 +1,11 @@
+<li>
+  <a class="card tool" href="{{ .RelPermalink }}">
+    <img class="tile" src="{{ printf "icons/%s" .Params.icon | relURL }}" alt="" width="56" height="56" loading="lazy">
+    <div class="tool-body">
+      <h3>{{ .Title }} <span class="gloss">{{ .Params.gloss }}</span></h3>
+      <p>{{ .Params.summary }}</p>
+      <p class="meta"><span>{{ .Params.platforms }}</span></p>
+      {{ partial "stamp.html" .Params.release }}
+    </div>
+  </a>
+</li>

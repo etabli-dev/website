@@ -1,0 +1,10 @@
+{{ define "main" }}
+<div class="wrap page">
+  <header class="page-head">
+    <p class="eyebrow">404</p>
+    <h1>Not on the bench</h1>
+    <p class="lede">This page does not exist. Try the <a href="{{ "" | relURL }}">home page</a> or the <a href="{{ "outils/" | relURL }}">tools</a>.</p>
+  </header>
+  {{ partial "rule.html" . }}
+</div>
+{{ end }}

@@ -1,0 +1,8 @@
+{{- $s := . -}}
+{{- if eq $s "soon" -}}
+<span class="stamp stamp-soon"><span class="visually-hidden">Status: </span>coming soon</span>
+{{- else -}}
+{{- $s = int (or $s 0) -}}
+{{- $labels := slice "source" "dev build" "released" -}}
+<span class="stamp stamp-{{ $s }}"><span class="visually-hidden">Status: </span>{{ index $labels $s }}</span>
+{{- end -}}

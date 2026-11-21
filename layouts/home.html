@@ -1,0 +1,55 @@
+{{ define "main" }}
+{{ $tools := (site.GetPage "/outils").Pages }}
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-text">
+      <p class="eyebrow">etabli-dev</p>
+      <h1>Établi</h1>
+      <p class="tagline">{{ site.Params.tagline }}</p>
+      <div class="lede">{{ .Content }}</div>
+      <p class="notice"><span class="notice-label">État</span> Under active development. Android development builds are on each repository's Releases page; nothing is in the App Store, Google Play or F-Droid yet.</p>
+      <p class="actions">
+        <a class="btn btn-primary" href="{{ "outils/" | relURL }}">The tools</a>
+        <a class="btn" href="{{ site.Params.github }}" rel="noopener">GitHub&nbsp;↗</a>
+      </p>
+    </div>
+    <div class="hero-mark">
+      <img src="{{ "images/etabli.svg" | relURL }}" alt="Établi mark: a white workbench with a brush stroke on a green tile" width="260" height="260">
+      <dl class="tally">
+        <div><dt>Open source</dt><dd>{{ len $tools }}</dd></div>
+        <div><dt>Coming soon</dt><dd>{{ len hugo.Data.bientot }}</dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
+
+<section class="wrap block">
+  <h2 class="section-title"><span class="kicker">L'établi</span>What is on the bench</h2>
+  {{ partial "families.html" . }}
+</section>
+
+<section class="wrap block">
+  <h2 class="section-title"><span class="kicker">Bientôt</span>Being built in private</h2>
+  <p class="family-text">These tools are developed in private repositories and will be opened when they are ready.</p>
+  <ul class="tools">{{ range hugo.Data.bientot }}{{ partial "soon-card.html" . }}{{ end }}</ul>
+</section>
+
+<section class="wrap block">
+  <h2 class="section-title"><span class="kicker">Principes</span>How the tools are built</h2>
+  <ol class="principles">
+    {{ range hugo.Data.principes }}
+    <li><h3>{{ .title }}</h3><p>{{ .text }}</p></li>
+    {{ end }}
+  </ol>
+  <p class="more"><a href="{{ "principes/" | relURL }}">The principles in full →</a></p>
+</section>
+
+<section class="wrap block">
+  <h2 class="section-title"><span class="kicker">Ailleurs</span>Related work</h2>
+  <ul class="related">
+    <li><a href="https://fonderie-dev.github.io/website/">Fonderie</a><span>AI model engineering for scientific work</span></li>
+    <li><a href="https://cttir.github.io/website/">CTTIR</a><span>Computational trauma and tissue injury research</span></li>
+    <li><a href="https://r-heller.github.io/website/">R. Heller</a><span>Personal website</span></li>
+  </ul>
+</section>
+{{ end }}

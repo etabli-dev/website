@@ -1,0 +1,39 @@
+{{ define "main" }}
+{{ $all := .CurrentSection.Pages.ByWeight }}
+{{ $idx := 0 }}
+{{ range $i, $p := $all }}{{ if eq $p $ }}{{ $idx = $i }}{{ end }}{{ end }}
+{{ $fam := index (where hugo.Data.familles "key" .Params.family) 0 }}
+<article class="wrap page outil">
+  <header class="page-head outil-head">
+    <img class="tile tile-lg" src="{{ printf "icons/%s" .Params.icon | relURL }}" alt="" width="96" height="96">
+    <div>
+      <p class="eyebrow"><a href="{{ .CurrentSection.RelPermalink }}">Outils</a> · <a href="{{ .CurrentSection.RelPermalink }}#{{ $fam.key }}">{{ $fam.kicker }}</a></p>
+      <h1>{{ .Title }} <span class="gloss">{{ .Params.gloss }}</span></h1>
+      <p class="lede">{{ .Params.summary }}</p>
+      <p class="etymology">{{ .Params.etymology }}</p>
+      <p class="actions">
+        {{ with .Params.site }}<a class="btn btn-primary" href="{{ . }}">Project site&nbsp;↗</a>{{ end }}
+        <a class="btn{{ if not .Params.site }} btn-primary{{ end }}" href="https://github.com/{{ .Params.repo }}" rel="noopener">Repository&nbsp;↗</a>
+        {{ if eq (int .Params.release) 1 }}<a class="btn" href="https://github.com/{{ .Params.repo }}/releases" rel="noopener">Releases&nbsp;↗</a>{{ end }}
+      </p>
+    </div>
+  </header>
+  <div class="outil-grid">
+    <div class="prose">{{ .Content }}</div>
+    <aside class="facts" aria-label="Facts">
+      <dl>
+        <dt>Status</dt><dd>{{ partial "stamp.html" .Params.release }}</dd>
+        <dt>Platforms</dt><dd>{{ .Params.platforms }}</dd>
+        <dt>Built with</dt><dd>{{ .Params.stack }}</dd>
+        <dt>Repository</dt><dd><a href="https://github.com/{{ .Params.repo }}" rel="noopener"><code>{{ .Params.repo }}</code></a></dd>
+        {{ with .Params.site }}<dt>Project site</dt><dd><a href="{{ . }}"><code>{{ replace (strings.TrimSuffix "/" (strings.TrimPrefix "https://" .)) "/" "/<wbr>" | safeHTML }}</code></a></dd>{{ end }}
+        <dt>Licence</dt><dd>{{ .Params.licence }}</dd>
+      </dl>
+    </aside>
+  </div>
+  <nav class="pager" aria-label="Other tools">
+    {{ if gt $idx 0 }}{{ with index $all (sub $idx 1) }}<a class="prev" href="{{ .RelPermalink }}"><span>Previous</span>← {{ .Title }}</a>{{ end }}{{ end }}
+    {{ if lt (add $idx 1) (len $all) }}{{ with index $all (add $idx 1) }}<a class="next" href="{{ .RelPermalink }}"><span>Next</span>{{ .Title }} →</a>{{ end }}{{ end }}
+  </nav>
+</article>
+{{ end }}

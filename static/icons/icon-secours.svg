@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-label="secours">
+  <rect width="1024" height="1024" fill="#28A745"/>
+  <g fill="none" stroke="#FFFFFF" stroke-width="36" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="512" cy="512" r="250"/>
+    <path d="M 462 372 H 562 V 462 H 652 V 562 H 562 V 652 H 462 V 562 H 372 V 462 H 462 Z"/>
+  </g>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-label="greffe">
+  <rect width="1024" height="1024" fill="#28A745"/>
+  <g fill="none" stroke="#FFFFFF" stroke-width="36" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 330 250 H 610 L 700 340 V 774 H 330 Z"/>
+    <path d="M 610 250 V 340 H 700"/>
+    <line x1="400" y1="440" x2="630" y2="440"/>
+    <line x1="400" y1="530" x2="630" y2="530"/>
+    <line x1="400" y1="620" x2="540" y2="620"/>
+    <circle cx="610" cy="660" r="58"/>
+  </g>
+</svg>

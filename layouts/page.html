@@ -1,0 +1,13 @@
+{{ define "main" }}
+<article class="wrap page">
+  <header class="page-head">
+    <p class="eyebrow">Établi</p>
+    <h1>{{ .Title }}</h1>
+    {{ with .Params.lede }}<p class="lede">{{ . }}</p>{{ end }}
+  </header>
+  {{ if eq .Layout "bientot" }}
+  <ul class="tools soon-list">{{ range hugo.Data.bientot }}{{ partial "soon-card.html" . }}{{ end }}</ul>
+  {{ end }}
+  <div class="prose">{{ .Content }}</div>
+</article>
+{{ end }}

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-label="indice">
+  <rect width="1024" height="1024" fill="#28A745"/>
+  <g transform="translate(-56.89,-56.89) scale(1.1111)">
+  <g id="glyph" fill="none" stroke="#FFFFFF" stroke-width="36"
+     stroke-linecap="round" stroke-linejoin="round">
+    <!-- Slide: 16:9-like frame -->
+    <rect x="236" y="262" width="476" height="282" rx="32"/>
+    <!-- Title line and two bullet lines -->
+    <line x1="292" y1="332" x2="524" y2="332"/>
+    <line x1="292" y1="404" x2="472" y2="404"/>
+    <line x1="292" y1="470" x2="428" y2="470"/>
+    <!-- Magnifier lens over the lower-right corner; green fill hides the slide edge behind it -->
+    <circle cx="652" cy="588" r="128" fill="#28A745"/>
+    <!-- Handle at 45 degrees -->
+    <line x1="744" y1="680" x2="792" y2="728"/>
+    <!-- The clue (indice): a single dot inside the lens -->
+    <circle cx="652" cy="588" r="30" fill="#FFFFFF" stroke="none"/>
+  </g>
+</g>
+</svg>

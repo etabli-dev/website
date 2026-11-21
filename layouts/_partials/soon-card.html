@@ -1,0 +1,11 @@
+<li>
+  <div class="card tool soon">
+    <img class="tile" src="{{ printf "icons/%s" .icon | relURL }}" alt="" width="56" height="56" loading="lazy">
+    <div class="tool-body">
+      <h3>{{ .name }} <span class="gloss">{{ .gloss }}</span></h3>
+      <p>{{ .summary }}</p>
+      <p class="meta"><span>{{ .platforms }}</span><span>{{ .family }}</span></p>
+      {{ partial "stamp.html" "soon" }}
+    </div>
+  </div>
+</li>

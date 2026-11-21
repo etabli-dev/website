@@ -1,0 +1,16 @@
+- key: recherche
+  kicker: Recherche
+  title: Research and analysis
+  text: Run code, apps and literature work on your own device or server.
+- key: services
+  kicker: Services
+  title: Clients for self-hosted services
+  text: Native front ends for servers you run yourself, with your own credentials.
+- key: quotidien
+  kicker: Quotidien
+  title: Everyday work
+  text: Small offline tools for the working day.
+- key: jeux
+  kicker: Jeux
+  title: Games
+  text: Tic-tac-toe, taken somewhere stranger.

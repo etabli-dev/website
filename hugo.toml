@@ -1,0 +1,40 @@
+baseURL = "https://etabli-dev.github.io/website/"
+locale = "en"
+defaultContentLanguage = "en"
+title = "Établi"
+disableKinds = ["taxonomy", "term", "rss"]
+enableRobotsTXT = true
+
+[params]
+  author = "R. Heller"
+  description = "Établi — a workbench of open tools for research, local knowledge work, self-hosted services and games."
+  tagline = "Open tools for research and local knowledge work."
+  github = "https://github.com/etabli-dev"
+  liberapay = "https://liberapay.com/rabanheller/"
+  since = 2026
+
+[[menus.main]]
+  name = "Outils"
+  pageRef = "/outils"
+  weight = 1
+
+[[menus.main]]
+  name = "Bientôt"
+  pageRef = "/bientot"
+  weight = 2
+
+[[menus.main]]
+  name = "Principes"
+  pageRef = "/principes"
+  weight = 3
+
+[[menus.main]]
+  name = "À propos"
+  pageRef = "/a-propos"
+  weight = 4
+
+# Site text (tool families, principles, coming-soon entries) lives in site-data/;
+# mount it as Hugo's data directory.
+[[module.mounts]]
+  source = "site-data"
+  target = "data"

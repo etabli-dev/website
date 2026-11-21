@@ -1,0 +1,10 @@
+- title: Your device, your server
+  text: There is no shared Établi account and no hosted backend. Apps work locally or talk to services you configure yourself.
+- title: No tracking
+  text: The suite runs no analytics service. Credentials for your servers are kept in the platform's secure storage.
+- title: Offline where it can be
+  text: Games, references and bundled examples run without a network. Each repository states which workflows need one.
+- title: Stated scope
+  text: Every README separates what is implemented and verified from what is planned. A development build is not a store release.
+- title: One family
+  text: The tools share the Coder design vocabulary (a green tile, restrained borders, monospaced values) and light, dark and system themes.
