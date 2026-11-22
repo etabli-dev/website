@@ -10,7 +10,7 @@ summary: "Browse the tables and rows of a SeaTable base."
 etymology: "A table, in both senses: the piece of furniture and the grid of rows."
 platforms: "Android · iOS"
 stack: "Kotlin · Swift"
-licence: "All rights reserved"
+licence: "AGPL-3.0-only, or a commercial licence"
 release: 1
 ---
 

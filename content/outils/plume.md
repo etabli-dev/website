@@ -10,7 +10,7 @@ summary: "A fast offline reference for LaTeX commands and snippets."
 etymology: "A plume is a quill: the pen that sets the words down."
 platforms: "Android · iOS · Desktop preview"
 stack: "Kotlin · Swift · Compose Desktop"
-licence: "All rights reserved"
+licence: "AGPL-3.0-only, or a commercial licence"
 release: 1
 ---
 

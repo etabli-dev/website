@@ -10,7 +10,8 @@ The tools began as things needed for the working day: running a quick R
 analysis away from a desk, reading documents from a self-hosted archive, keeping
 focused time honest. Each one is small, does one job, and keeps its source in
 a public repository so that what it does can be checked. The code is
-proprietary, all rights reserved; for licensing, see the contact below.
+AGPL-3.0-only for the apps (commercial licences on request) and all rights
+reserved for Recueil; for licensing, see the contact below.
 
 ## Follow and contribute
 

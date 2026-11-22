@@ -28,8 +28,8 @@ code.
 
 Each README says what is implemented, what has been verified, on which platform,
 and what is not. Development builds on GitHub Releases are snapshots; they are
-not store-approved releases and do not include later source changes. App Store and
-Google Play publication are separate steps that have not happened
+not store-approved releases and do not include later source changes. App Store,
+Google Play and F-Droid publication are separate steps that have not happened
 yet.
 
 ## One family
@@ -41,10 +41,12 @@ and accessibility are checked per app.
 
 ## Licences
 
-The tools are proprietary: all rights reserved. Their source is visible on
-GitHub, but no licence to use, copy or redistribute it is granted. Versions
-published before 22 November 2026 remain available under their earlier
-open-source licences (Apache-2.0; AGPL-3.0 for Recueil). Third-party components
+Since 22 November 2026 the apps (Atelier, Vitrine, Courrier, Doc, Table,
+Projet, Nuage, Focus, Plume, BranchXO and Lattttice) are dual-licensed: the
+GNU Affero General Public License, version 3 only (AGPL-3.0-only), or a
+commercial licence from the copyright holder (etabli.dev@outlook.com). Recueil
+is proprietary, all rights reserved. Versions published earlier remain
+available under their earlier licences (Apache-2.0; AGPL-3.0 for Recueil). Third-party components
 keep their own licences; Atelier and Vitrine list WebR (GPL)
 and the other runtime components in `THIRD_PARTY.md`. Always check
 a repository's `LICENSE` and `NOTICE`.

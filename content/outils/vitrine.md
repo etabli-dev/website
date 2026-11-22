@@ -10,7 +10,7 @@ summary: "Run interactive Shiny apps entirely on your device."
 etymology: "A vitrine is a shop window: the place where finished work is put on show."
 platforms: "Android · iOS"
 stack: "Flutter · WebR · shinylive"
-licence: "All rights reserved"
+licence: "AGPL-3.0-only, or a commercial licence"
 release: 1
 ---
 
