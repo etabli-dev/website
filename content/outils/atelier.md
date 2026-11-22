@@ -10,7 +10,7 @@ summary: "Run R and Python on your phone, fully offline."
 etymology: "An atelier is a workshop: the room where the actual making happens."
 platforms: "Android · iOS"
 stack: "Flutter · WebR · Pyodide"
-licence: "Apache-2.0"
+licence: "All rights reserved"
 release: 1
 ---
 
@@ -27,8 +27,8 @@ share one virtual filesystem.
 ## Where it stands
 
 Android development builds are produced from source. Unsigned iOS simulator and
-device Release builds have been verified. App Store, Google Play and F-Droid
-releases are planned. Desktops are not a target: they already have native R
+device Release builds have been verified. App Store and Google Play releases
+are planned. Desktops are not a target: they already have native R
 and Python.
 
 Runtime licences (WebR is GPL) are listed in the repository's `THIRD_PARTY.md`.

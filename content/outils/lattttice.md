@@ -10,7 +10,7 @@ summary: "Four-dimensional tic-tac-toe on a 4×4×4×4 tesseract."
 etymology: "A lattice stretched by one more dimension and a few more t's."
 platforms: "Android · iOS · Web · Desktop"
 stack: "React Native · Expo · Tauri"
-licence: "Apache-2.0"
+licence: "All rights reserved"
 release: 1
 ---
 

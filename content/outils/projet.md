@@ -10,7 +10,7 @@ summary: "Your OpenProject projects and assigned work packages."
 etymology: "A projet is a plan cast forward: what is meant to be built."
 platforms: "Android · iOS"
 stack: "Swift · Kotlin"
-licence: "Apache-2.0"
+licence: "All rights reserved"
 release: 1
 ---
 

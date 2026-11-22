@@ -10,7 +10,7 @@ summary: "Multiverse tic-tac-toe: scrub back through the timeline and branch int
 etymology: "Branches and noughts and crosses: every move can open a new timeline."
 platforms: "Android · iOS · Web · Desktop"
 stack: "React Native · Expo · Tauri"
-licence: "Apache-2.0"
+licence: "All rights reserved"
 release: 1
 ---
 

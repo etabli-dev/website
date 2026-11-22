@@ -49,5 +49,6 @@ privacy notice.
 
 ## Licence
 
-Templates, stylesheet and tools: MIT, see [LICENSE](LICENSE). Text, the
-Établi mark and app icons: © 2026 R. Heller.
+Proprietary, all rights reserved. See [LICENSE](LICENSE). Third-party
+components keep their own licences. Versions published before 22 November 2026
+remain available under their earlier licence (MIT).

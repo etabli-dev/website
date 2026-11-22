@@ -7,7 +7,7 @@
       <h1>Établi</h1>
       <p class="tagline">{{ site.Params.tagline }}</p>
       <div class="lede">{{ .Content }}</div>
-      <p class="notice"><span class="notice-label">État</span> Under active development. Android development builds are on each repository's Releases page; nothing is in the App Store, Google Play or F-Droid yet.</p>
+      <p class="notice"><span class="notice-label">État</span> Under active development. Android development builds are on each repository's Releases page; nothing is in the App Store or Google Play yet.</p>
       <p class="actions">
         <a class="btn btn-primary" href="{{ "outils/" | relURL }}">The tools</a>
         <a class="btn" href="{{ site.Params.github }}" rel="noopener">GitHub&nbsp;↗</a>
@@ -16,7 +16,7 @@
     <div class="hero-mark">
       <picture><source srcset="{{ "images/etabli-dark.svg" | relURL }}" media="(prefers-color-scheme: dark)"><img src="{{ "images/etabli.svg" | relURL }}" alt="Établi mark: the letter É drawn as a single white line inside a workbench frame, on a green tile" width="260" height="260"></picture>
       <dl class="tally">
-        <div><dt>Open source</dt><dd>{{ len $tools }}</dd></div>
+        <div><dt>Public</dt><dd>{{ len $tools }}</dd></div>
         <div><dt>Coming soon</dt><dd>{{ len hugo.Data.bientot }}</dd></div>
       </dl>
     </div>

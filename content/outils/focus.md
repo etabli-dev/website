@@ -10,7 +10,7 @@ summary: "Track focused work blocks by category, against weekly targets."
 etymology: "From the Latin focus, the hearth: the place where the heat is."
 platforms: "Android · iOS · Desktop preview"
 stack: "Kotlin · Swift · Compose Multiplatform"
-licence: "Apache-2.0"
+licence: "All rights reserved"
 release: 1
 ---
 

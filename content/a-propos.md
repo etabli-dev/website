@@ -8,8 +8,9 @@ lede: "Établi is built and maintained by R. Heller, alongside clinical and comp
 
 The tools began as things needed for the working day: running a quick R
 analysis away from a desk, reading documents from a self-hosted archive, keeping
-focused time honest. Each one is small, does one job, and is published so that
-others can use, check and adapt it.
+focused time honest. Each one is small, does one job, and keeps its source in
+a public repository so that what it does can be checked. The code is
+proprietary, all rights reserved; for licensing, see the contact below.
 
 ## Follow and contribute
 
