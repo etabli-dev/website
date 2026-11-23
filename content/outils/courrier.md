@@ -10,7 +10,7 @@ summary: "An offline workspace for mail, calendar, contacts, tasks, notes and fe
 etymology: "Courrier is the post: letters that arrive, are read and are kept."
 platforms: "Android · iOS · Linux · macOS · Windows"
 stack: "Flutter · IMAP · Nextcloud DAV"
-licence: "Apache-2.0"
+licence: "AGPL-3.0-only, or a commercial licence"
 release: 1
 ---
 

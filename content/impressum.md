@@ -39,6 +39,6 @@ Die durch den Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten
 unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung,
 Verbreitung und jede Art der Verwertung außerhalb der Grenzen des
 Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw.
-Erstellers. Der Quellcode dieser Website steht unter der MIT-Lizenz.
+Erstellers. Alle Rechte vorbehalten.
 
 Siehe auch die [Datenschutzerklärung](../datenschutz/).

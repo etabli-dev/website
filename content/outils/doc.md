@@ -10,7 +10,7 @@ summary: "Search your Paperless-ngx documents from your phone."
 etymology: "Short for document: the paper itself, filed and findable."
 platforms: "Android · iOS"
 stack: "Kotlin · Swift"
-licence: "Apache-2.0"
+licence: "AGPL-3.0-only, or a commercial licence"
 release: 1
 ---
 

@@ -10,7 +10,7 @@ summary: "Check a CSV of links and keep the results, with optional Nextcloud sto
 etymology: "A nuage is a cloud, here one you host yourself."
 platforms: "Android · iOS · Desktop preview"
 stack: "Kotlin · Swift · Compose Desktop"
-licence: "Apache-2.0"
+licence: "AGPL-3.0-only, or a commercial licence"
 release: 0
 ---
 

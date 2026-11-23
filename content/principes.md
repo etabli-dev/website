@@ -41,7 +41,12 @@ and accessibility are checked per app.
 
 ## Licences
 
-Application code is under Apache-2.0, except Recueil, which is under
-AGPL-3.0. Bundled runtimes can carry other licences; Atelier and Vitrine list
-WebR (GPL) and the other runtime components in `THIRD_PARTY.md`. Always check
+Since 22 November 2026 the apps (Atelier, Vitrine, Courrier, Doc, Table,
+Projet, Nuage, Focus, Plume, BranchXO and Lattttice) are dual-licensed: the
+GNU Affero General Public License, version 3 only (AGPL-3.0-only), or a
+commercial licence from the copyright holder (etabli.dev@outlook.com). Recueil
+is proprietary, all rights reserved. Versions published earlier remain
+available under their earlier licences (Apache-2.0; AGPL-3.0 for Recueil). Third-party components
+keep their own licences; Atelier and Vitrine list WebR (GPL)
+and the other runtime components in `THIRD_PARTY.md`. Always check
 a repository's `LICENSE` and `NOTICE`.

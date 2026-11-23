@@ -7,8 +7,8 @@ enableRobotsTXT = true
 
 [params]
   author = "R. Heller"
-  description = "Établi — a workbench of open tools for research, local knowledge work, self-hosted services and games."
-  tagline = "Open tools for research and local knowledge work."
+  description = "Établi — a workbench of tools for research, local knowledge work, self-hosted services and games."
+  tagline = "Tools for research and local knowledge work."
   github = "https://github.com/etabli-dev"
   liberapay = "https://liberapay.com/rabanheller/"
   since = 2026

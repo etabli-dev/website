@@ -9,7 +9,7 @@ summary: "Gather. Verify. Map. A self-hosted document and reference manager."
 etymology: "A recueil is a collection: texts gathered and bound together in one volume."
 platforms: "Server · Web · Desktop client"
 stack: "TypeScript · Node 22 · Tauri"
-licence: "AGPL-3.0"
+licence: "All rights reserved"
 release: 0
 ---
 
